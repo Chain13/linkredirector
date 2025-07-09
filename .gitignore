@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+*.env
+venv/
+env/
+ENV/
+.venv/
+
+# Django stuff
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Render build files
+render.yaml
+
+# Migrations (optional — ถ้าไม่ต้องการ ignore, ลบบรรทัดนี้)
+**/migrations/*.py
+**/migrations/__pycache__/
+
+# Pycharm project settings
+*.iml
+*.ipr
+*.iws
+
+# Pip dependency resolver artifacts
+pip-log.txt
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# MyPy & Pytest
+.mypy_cache/
+.pytest_cache/
